@@ -7,6 +7,10 @@
 [node name="Godot" parent="." instance=ExtResource( 1 )]
 position = Vector2( 321, 318 )
 
+[node name="Timer" type="Timer" parent="Godot"]
+wait_time = 0.4
+autostart = true
+
 [node name="Button" type="Button" parent="."]
 margin_left = 55.0
 margin_top = 48.0
